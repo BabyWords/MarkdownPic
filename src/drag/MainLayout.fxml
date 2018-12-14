@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<!--<AnchorPane fx:id="mRoot" prefHeight="110.0" prefWidth="250.0" xmlns:fx="http://javafx.com/fxml" fx:controller="drag.MainController">-->
+  <!--&lt;!&ndash; TODO Add Nodes &ndash;&gt;-->
+  <!--<children>-->
+    <!--<Label layoutX="10.0" layoutY="10.0" text="请将图片拖拽到下面↓" alignment="BASELINE_CENTER"/>-->
+    <!--<ImageView id="m_imageview" fx:id="m_imageView" fitHeight="100.0" fitWidth="250.0" pickOnBounds="true" preserveRatio="true" />-->
+  <!--</children>-->
+<!--</AnchorPane>-->
+<?import javafx.scene.text.Text?>
+<?import javafx.geometry.Insets?>
+<GridPane fx:controller="drag.MainController" xmlns:fx="http://javafx.com/fxml">
+  <padding><Insets top="25" right="25" bottom="10" left="25"/></padding>
+  <Text text="将图片拖拽到下面↓" GridPane.columnIndex="0" GridPane.rowIndex="0" textAlignment="CENTER"/>
+  <ImageView  id="m_imageview" fx:id="m_imageView" GridPane.rowIndex="1" GridPane.columnIndex="0" fitHeight="100.0" fitWidth="250.0"/>
+</GridPane>
